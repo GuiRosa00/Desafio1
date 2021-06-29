@@ -1,77 +1,99 @@
 *{
     padding: 0;
-    margin: 0;}
+    margin: 0;
+}
 
 body{
     background-color:black;
     display:flex;
     flex-direction: row;
-    gap:20px;}
+    gap:20px;
+}
 
 #conteudo{
     display: flex;
     width:75%;
     flex-direction:row;
-    gap :40px;}
+    gap :38px;
+}
 
 #esquerda{
     display:flex;
-    align-items: flex-start;}
+    align-items: flex-start;
+}
 
 #direita{
     display:flex;
-    margin-top:5px;
+    margin-top:20px;
     align-items: flex-end;
-    padding-right:40px}
+    padding-right:20px;
+    gap:250px;
+}
 
 .borda{
     display:flex;
     width:15%;
     flex-direction:column;
     margin: top 50px;
-    gap:300px;}
+    gap:270px;
+}
 
 button{
     height: 40px;
-    width: 40px;}
+    width: 40px;
+}
 
 .cinza{
     background-color:#1A1A1A;
-    border-radius: 50%;}
+    border-radius: 50%;
+}
     
 .branco{
     margin-top:5px;
     background-color:white;
-    border-radius: 50%;}
+    border-radius: 50%;
+    height: 38px;
+    width: 30px;
+    display:flex;
+    align-items:center;
+    padding-right:10px;
+}
 
 .cima{
     display:flex;
     flex-direction: row;
-    gap: 25px;
-    align-items:center;}
+    gap: 20px;
+    align-items:center;
+    height:40px;
+}
 
 .invertida{
-    transform:rotate(180deg)}
+    transform:rotate(180deg)
+}
+
 .x{
     margin-top: 5px;
     margin-left: 25px;
-    align-items:center;}
+    align-items:center;
+}
 
 #comentarios{
     background-color: #242526;
-    width: 25%;
+    width: 50%;
     height: 625px;
-    gap: 20px;}
+    gap: 20px;
+}
 
 .config{
+    padding-top:10px;
     display:flex;
     flex-direction:row;
     justify-content: flex-end;
-    gap:20px;
+    gap:15px;
 }
 
 .perfil{
-    width: auto;
+    width: 200px;
     display:flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -80,16 +102,20 @@ button{
 }
 
 .fotoperfil{
+    width:40px;
+    height:40px;
     border-radius:50%;}
 
 .textoperfil{
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
-    color:white
+    align-items:baseline;
+    color:white;
 }
 
 .tresP{
+    padding-left:130px;
     display:flex;
     flex-direction:row;
     justify-content: flex-end;

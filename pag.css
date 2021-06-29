@@ -54,9 +54,10 @@ button{
     background-color:white;
     border-radius: 50%;
     height: 36px;
-    width: 30px;
-    display:flex;
-    align-items:center;
+    width: 32px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     padding-inline-end:5px;
 }
 
@@ -163,6 +164,7 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    font-weight:600;
 }
 
 #logoF{

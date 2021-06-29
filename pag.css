@@ -47,7 +47,7 @@ button{
     align-items:center;
 }
 
-#invertida{
-    transform:rotate(90)
+.invertida{
+    transform:rotate(180deg)
 }
 

@@ -99,5 +99,13 @@ button{
     color:white;
     padding:10px;
     padding-left: 20px;
-    
+}
+
+.interacao{
+    color: white;
+    padding-left: 10px;
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }

@@ -20,13 +20,15 @@ body{
 #esquerda{
     display:flex;
     align-items: flex-start;
+    margin-right: 75px;
+    margin-top:5px;
 }
 
 #direita{
     display:flex;
-    margin-top:20px;
+    margin-top:12px;
     align-items: flex-end;
-    padding-right:20px;
+    margin-left:10px;
     gap:250px;
 }
 
@@ -35,7 +37,7 @@ body{
     width:15%;
     flex-direction:column;
     margin: top 50px;
-    gap:265px;
+    gap:258px;
 }
 
 button{
@@ -53,16 +55,17 @@ button{
     background-color:white;
     border-radius: 50%;
     height: 36px;
-    width: 30px;
-    display:flex;
-    align-items:center;
+    width: 32px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     padding-inline-end:5px;
 }
 
 .cima{
     display:flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 15px;
     align-items:center;
     height:40px;
 }
@@ -162,6 +165,7 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    font-weight:600;
 }
 
 #logoF{

@@ -21,13 +21,14 @@ body{
     display:flex;
     align-items: flex-start;
     margin-right: 75px;
+    margin-top:5px;
 }
 
 #direita{
     display:flex;
-    margin-top:20px;
+    margin-top:12px;
     align-items: flex-end;
-    margin-left:20px;
+    margin-left:10px;
     gap:250px;
 }
 
@@ -36,7 +37,7 @@ body{
     width:15%;
     flex-direction:column;
     margin: top 50px;
-    gap:265px;
+    gap:258px;
 }
 
 button{
@@ -64,7 +65,7 @@ button{
 .cima{
     display:flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 15px;
     align-items:center;
     height:40px;
 }

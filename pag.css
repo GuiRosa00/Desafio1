@@ -155,8 +155,10 @@ button{
 .interacao{
     color: #B0B3B8;
     margin-top: 13px;
-    padding-left: 10px;
+    padding-left: 25px;
     gap: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;

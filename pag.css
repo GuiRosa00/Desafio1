@@ -52,11 +52,11 @@ button{
     margin-top:5px;
     background-color:white;
     border-radius: 50%;
-    height: 38px;
+    height: 36px;
     width: 30px;
     display:flex;
     align-items:center;
-    padding-right:10px;
+    padding-inline-end:5px;
 }
 
 .cima{
@@ -98,7 +98,8 @@ button{
     flex-direction: row;
     justify-content: flex-start;
     padding: 20px;
-    gap:5px;
+    gap:2px;
+    text-align:start;
 }
 
 .fotoperfil{
@@ -110,12 +111,12 @@ button{
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items:baseline;
+    align-items:flex-start;
     color:white;
 }
 
 .tresP{
-    padding-left:130px;
+    margin-left:25px;
     display:flex;
     flex-direction:row;
     justify-content: flex-end;
@@ -134,4 +135,21 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+}
+
+#logoF{
+    padding-right:30px;
+}
+
+.bordaCinza{
+    border-radius:50%;
+    background-color:#4E4F50;
+    width:35px;
+    height:35px;
+}
+
+.imagtext{
+    display:flex;
+    flex-direction:row;
+    gap:100px
 }

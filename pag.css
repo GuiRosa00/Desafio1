@@ -5,7 +5,8 @@
 body{
     background-color:black;
     display:flex;
-    flex-direction: row;}
+    flex-direction: row;
+    gap:20px;}
 
 #conteudo{
     display: flex;
@@ -15,11 +16,11 @@ body{
 
 .esquerda{
     display:flex;
-    align-items: flex-start;}
+    justify-content: flex-start;}
 
 .direita{
     display:flex; 
-    align-items: flex-end;}
+    justify-content: flex-end;}
 
 .borda{
     display:flex;
@@ -37,6 +38,7 @@ button{
     border-radius: 50%;}
     
 .branco{
+    margin-top:5px;
     background-color:white;
     border-radius: 50%;}
 
@@ -44,10 +46,49 @@ button{
     display:flex;
     flex-direction: row;
     gap: 10px;
-    align-items:center;
-}
+    align-items:center;}
 
 .invertida{
-    transform:rotate(180deg)
+    transform:rotate(180deg)}
+
+#comentarios{
+    background-color: #242526;
+    width: 25%;
+    height: 625px;
+    gap: 20px;}
+
+.config{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;}
+
+.perfil{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 20px;
+    gap:5px;
 }
 
+.fotoperfil{
+    border-radius:50%;}
+
+.textoperfil{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color:white
+}
+
+.tresP{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+
+.texto{
+    color:white;
+    padding:10px;
+    padding-left: 20px;
+    
+}

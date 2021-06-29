@@ -20,13 +20,14 @@ body{
 #esquerda{
     display:flex;
     align-items: flex-start;
+    margin-right: 75px;
 }
 
 #direita{
     display:flex;
     margin-top:20px;
     align-items: flex-end;
-    padding-right:20px;
+    margin-left:20px;
     gap:250px;
 }
 
@@ -62,7 +63,7 @@ button{
 .cima{
     display:flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
     align-items:center;
     height:40px;
 }

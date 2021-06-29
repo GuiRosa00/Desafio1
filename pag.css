@@ -35,7 +35,7 @@ body{
     width:15%;
     flex-direction:column;
     margin: top 50px;
-    gap:267px;
+    gap:265px;
 }
 
 button{
@@ -70,6 +70,7 @@ button{
 .normal{
     display:flex;
     align-items:center;
+    margin-left:10px;
     width: 42px;
     height: 44px;
     background-color: rgb(26,26,26);
@@ -104,7 +105,8 @@ button{
     display:flex;
     flex-direction:row;
     justify-content: flex-end;
-    gap:15px;
+    gap:10px;
+    margin-right:10px;
 }
 
 .perfil{
@@ -112,7 +114,8 @@ button{
     display:flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
     gap:2px;
     text-align:start;
 }
@@ -120,7 +123,9 @@ button{
 .fotoperfil{
     width:40px;
     height:40px;
-    border-radius:50%;}
+    border-radius:50%;
+    margin-right:3px;
+}
 
 .textoperfil{
     width:120px;
@@ -129,6 +134,8 @@ button{
     justify-content: flex-start;
     align-items: baseline;
     color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px
 }
 
 .tresP{
@@ -138,6 +145,8 @@ button{
 }
 
 .texto{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:15px;
     color:white;
     padding:10px;
     padding-left: 20px;
@@ -145,6 +154,7 @@ button{
 
 .interacao{
     color: white;
+    margin-top: 13px;
     padding-left: 10px;
     gap: 5px;
     display: flex;
@@ -160,12 +170,40 @@ button{
 .bordaCinza{
     border-radius:50%;
     background-color:#4E4F50;
-    width:35px;
-    height:35px;
+    width:32px;
+    height:32px;
 }
 
 .imagtext{
     display:flex;
     flex-direction:row;
     gap:100px
+}
+
+.detalhe{
+    color: #B0B3B8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:13px;
+}
+
+.dados{
+    color: #B0B3B8;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left:2px;
+}
+
+.numero{
+    margin-right: 65px;
+}
+
+.status{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding:2px;
+    gap:3px;
 }
